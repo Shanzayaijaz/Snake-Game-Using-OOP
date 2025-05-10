@@ -36,16 +36,6 @@ This is a modern implementation of the classic Snake game developed using C++ an
 - C++ compiler (e.g., `g++`)
 - Raylib library installed on your system
 
-### Compilation Example (Linux/macOS)
-
-```bash
-g++ main.cpp -o snake -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-./snake
-
-### Compilation Example (Windows)
-g++ main.cpp -o snake.exe -lraylib -lopengl32 -lgdi32 -lwinmm
-snake.exe
-
 ### File structure
 main.cpp
 score.txt              # Auto-created after playing
@@ -58,5 +48,12 @@ Graphics/
 Sounds/
     eat.mp3
     wall.mp3
+
+
+### Compilation Example (windows)
+
+```bash
+g++ main.cpp -o snake.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+snake.exe
 
 
