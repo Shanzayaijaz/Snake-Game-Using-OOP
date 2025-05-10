@@ -41,9 +41,12 @@ This is a modern implementation of the classic Snake game developed using C++ an
 ```bash
 g++ main.cpp -o snake -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ./snake
+
+### Compilation Example (Windows)
 g++ main.cpp -o snake.exe -lraylib -lopengl32 -lgdi32 -lwinmm
 snake.exe
 
+### File structure
 main.cpp
 score.txt              # Auto-created after playing
 README.md
