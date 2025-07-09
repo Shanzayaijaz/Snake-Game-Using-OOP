@@ -1,5 +1,5 @@
 # Snake-Game-Using-OOP
-This is a modern implementation of the classic Snake game developed using C++ and [Raylib](https://www.raylib.com/). The game includes extended features such as growth food, shrink food, and negative food that affect gameplay in unique ways.
+This is a modern implementation of the classic Snake game developed using C++ and [Raylib](https://www.raylib.com/). The game includes extended features such as growth food, shrink food, and negative food that affect gameplay in unique ways. Execute main.exe files to play the game
 
 ##  Features
 
@@ -28,27 +28,13 @@ This is a modern implementation of the classic Snake game developed using C++ an
 
 
 >  Make sure these paths are correct or update them in the source code accordingly.
-
+   
 ##  How to Build and Run
 
 ### Prerequisites
 
 - C++ compiler (e.g., `g++`)
 - Raylib library installed on your system
-
-### File structure
-main.cpp
-score.txt              # Auto-created after playing
-README.md
-Graphics/
-    food.png
-    negative.png
-    shrink.png
-    growth.png
-Sounds/
-    eat.mp3
-    wall.mp3
-
 
 ### Compilation Example (windows)
 
